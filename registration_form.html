@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REGISTRATION PAGE</title>
+</head>
+<body>
+        
+    <h2>Fill Details</h2>
+    <form>
+        First name:
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;  
+        <input type="text" name="firstname" maxlength="10">
+        <br>
+        <br>
+        Last name:
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;  
+        <input type="text" name="lastname" maxlength="15">
+        <br>
+        <br>
+        Address  :
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;  
+        <textarea maxlength="50"> </textarea>
+        <br>
+        <br>
+        Email Id :
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp; 
+        <input type="text" name="emailid">
+        <br>
+        <br>
+        City :
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+        <select name="cityname">
+            <option value="entercity">Select City</option>
+            <option value="pune">Pune</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="kolkata">Kolkata</option>
+            <option value="banglore">Banglore</option>
+            <option value="hydrabad">Hydrabad</option>
+          </select>
+          <br>
+          <br>
+        State:
+        &nbsp &nbsp &nbsp &nbsp &nbsp 
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+        <select name="statename">
+            <option value="enterstate">Select State</option>
+            <option value="maharashtra">Maharashta</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="westBengal">West Bengal</option>
+            <option value="andhrapradesh">Andhra Pradesh</option>
+          </select>
+          <br>
+          <br>
+        University Branch Name :
+        &nbsp;
+        <select name="branch_name">
+            <option value="enterbranch">Select Branch</option>
+            <option value="electronics">E & TC</option>
+            <option value="computer">Computer</option>
+            <option value="it">Information Tech</option>
+            <option value="mech">Mechnical</option>
+
+          </select>
+        <br>
+        <br>
+        Phone no.:
+        &nbsp &nbsp &nbsp &nbsp &nbsp 
+        &nbsp &nbsp &nbsp &nbsp &nbsp 
+        &nbsp &nbsp &nbsp;  
+        
+        <input type="text"
+               pattern = "[1-9]{1}[0-9]{9}" 
+               name="phone_no" required>
+        <br>
+        <br>
+        Enrolled Course :
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp; 
+        
+        <select name="course">
+            <option value="es">EMSY</option>
+            <option value="js">JASC</option>
+            <option value="dn">DOTNET</option>
+          </select>
+        <br>
+        <br>
+        Date of Test :
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp; 
+        <input type="date" name="testdate">
+        <br>
+        <br>
+        Written Test marks:
+        &nbsp &nbsp &nbsp &nbsp &nbsp; 
+        <input type="text" title="Enter number between 50-100"
+               name="marks" required>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+
+
+      </form>
+      
+</body>
+</html>
