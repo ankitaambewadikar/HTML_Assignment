@@ -1,4 +1,8 @@
 
+body {
+    display: block;
+    background-color:lightgoldenrodyellow;
+}
 .header{
     top:0;
     position: absolute;
@@ -14,13 +18,28 @@
 }
 form{
     position: relative;
-    top : 300px;
+    top : 200px;
 }
-img {
+.logo {
     width:300px;
     height:100px;
     position: relative;
     left: 30px;
+
+}
+.bodyimg {
+    width:1000px;
+    height:400px;
+    position:absolute;
+    left:15%;
+
+}
+.footerimg {
+    width:50px;
+    height:50px;
+    position:absolute;
+    left:90%;
+
 
 }
 .footer{
@@ -31,7 +50,7 @@ width: 1400px;
     height: 50px;
 }
 
-nav{
+.navbar1{
 float:center;
 font-size: 18px;
 list-style-type: none;
@@ -41,6 +60,17 @@ overflow: hidden;
 background-color:orangered;
 width: 1400px;
 }
+.navbar2{
+    float: right;
+    font-size: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:orange;
+    width: 100px;
+    }
+
 
 li {
 float: left;
@@ -65,4 +95,58 @@ h2.center{
 text-align: center;
 } 
 
+.topRight{
 
+    position: absolute;
+    top:0%;
+    left:75%;
+    font-size: 15px;
+    background-color:orange;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 30px;
+}
+
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:lightgoldenrodyellow;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+table{
+    border: 1px solid black;
+}

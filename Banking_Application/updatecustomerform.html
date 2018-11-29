@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Updatecustomerdetails</title>
 
     <link rel ="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
         <div class="header">
                 <img src="C:\HTML_ASSIGNMENTS\Banking_Application\images\blogo.png" width="300" height="100">
-                <h2 class="center" style="margin-top: -50px; margin-bottom: 50px;">Welcome to Online Banking</h2>
-                <nav>
-                        <li><a style="color: purple" href="addnewAccount.html">Add New Account</a></li>
-                        <li><a style="color: purple" href="searchaccount.html">Search Account</a></li>
-                        <li><a style="color: purple">View Account</a></li>
-                        <li><a style="color: purple" href="viewallcustomers.html">View All Customers</a></li>
-                        <li><a style="color: purple" href="updatecustomerform.html">Update Customer Details</a></li>
-                        <li><a style="color: purple" href="withdrawform.html">Withdraw</a></li>
-                        <li><a style="color: purple" href="depositform.html">Deposit</a></li>
-                        <li><a style="color: purple" href="fundtransfer.html">Fund Transfer</a></li>
+                <h2 class="center" style="margin-top: -50px; margin-bottom: 50px;"><i>Welcome to ICICI Bank</i></h2>
+                <nav class="navbar1">
+                     
+                        <li><a style="color: white" href="homepage.html">Home</a></li>
+                        <li><a style="color: white" href="addnewAccount.html">Add New Account</a></li>
+                        <li><a style="color: white" href="searchaccount.html">Search Account</a></li>
+                        <li><a style="color: white">View Account</a></li>
+                        <li><a style="color: white" href="viewallcustomers.html">View All Customers</a></li>
+                        <li><a style="color: white" href="updatecustomerform.html">Update Customer Details</a></li>
+                        <li><a style="color: white" href="withdrawform.html">Withdraw</a></li>
+                        <li><a style="color: white" href="depositform.html">Deposit</a></li>
+                        <li><a style="color: white" href="fundtransfer.html">Fund Transfer</a></li>
                       </nav>
             </div>
             
@@ -30,41 +32,44 @@
                 Customer Id:
                 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
                 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;  
+                <input type="text"
+                name="Customerid" readonly>
                 
                 <br>
                 <br>
                 Account Holder Name:
-                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;  
+                &nbsp &nbsp &nbsp  &nbsp;  
                 <input type="text" name="name" maxlength="30">
                 <br>
                 <br>
                 Account Number:
-                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;  
+                &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp; 
+                <input type="text"
+                name="AccountNo" readonly>
                 
                 <br>
                 <br>
                 
                 Email Id :
-                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+               
+                &nbsp &nbsp &nbsp &nbsp
                 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
                 &nbsp &nbsp &nbsp &nbsp &nbsp; 
                 <input type="text" name="emailid">
                 <br>
                 <br>
                 Customer DOB :
-                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                    &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp
+                    
+                     &nbsp &nbsp  &nbsp &nbsp &nbsp
                      &nbsp &nbsp &nbsp &nbsp; 
                     <input type="date" name="date">
                     <br>
                     <br>
                 Customer Phone no.:
                     &nbsp &nbsp &nbsp &nbsp &nbsp 
-                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                    &nbsp &nbsp &nbsp;  
+                    
+                     &nbsp;  
                     
                     <input type="text"
                            pattern = "[1-9]{1}[0-9]{9}" 
